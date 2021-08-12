@@ -1,3 +1,7 @@
+import Test from "./components/test/test";
 export default function Root(props) {
-  return <section>{props.name} is mounted!</section>;
+  const test = Test({
+    name: "funcionaaaa modularmenteeeee React!!!!!!!!!!!!!",
+  });
+  return test;
 }
