@@ -1,8 +1,16 @@
 {
-  "extends": "ts-config-single-spa",
-  "compilerOptions": {
-    "jsx": "react-jsx"
-  },
-  "include": ["src/**/*", "node_modules/@types"],
-  "exclude": ["src/**/*.test*"]
+    "extends": "ts-config-single-spa",
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "target": "ESNext",
+        "noImplicitAny": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["src/*"]
+        },
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules/**/*", "dist"]
 }
