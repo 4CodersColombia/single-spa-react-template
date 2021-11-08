@@ -58,9 +58,10 @@
         "webpack-merge": "^5.8.0"
     },
     "dependencies": {
-        "i18next": "^20.6.0",
+        "i18next": "^20.6.1",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
-        "single-spa-react": "^4.2.0"
+        "single-spa-react": "^4.2.0",
+        "xuach-commons": "^0.0.10"
     }
 }

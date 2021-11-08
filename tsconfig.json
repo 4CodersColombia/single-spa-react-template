@@ -3,7 +3,7 @@
     "compilerOptions": {
         "jsx": "react-jsx",
         "target": "ESNext",
-        "noImplicitAny": true,
+        "noImplicitAny": false,
         "baseUrl": ".",
         "paths": {
             "@/*": ["src/*"]
